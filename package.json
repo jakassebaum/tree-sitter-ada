@@ -1,8 +1,8 @@
 {
   "name": "tree-sitter-ada",
-  "version": "0.1.0",
-  "description": "Ada grammar for tree-sitter",
-  "repository": "https://github.com/briot/tree-sitter-ada",
+  "version": "0.1.1",
+  "description": "Ada grammar for tree-sitter (Node.js v24+ compatible)",
+  "repository": "https://github.com/jakassebaum/tree-sitter-ada",
   "license": "MIT",
   "author": {
     "name": "Emmanuel Briot"
@@ -26,15 +26,15 @@
     "*.wasm"
   ],
   "dependencies": {
-    "node-addon-api": "^8.3.1",
+    "node-addon-api": "^8.5.0",
     "node-gyp-build": "^4.8.4"
   },
   "devDependencies": {
     "prebuildify": "^6.0.1",
-    "tree-sitter-cli": "^0.24.7"
+    "tree-sitter-cli": "^0.25.8"
   },
   "peerDependencies": {
-    "tree-sitter": "^0.22.4"
+    "tree-sitter": "^0.25.0"
   },
   "peerDependenciesMeta": {
     "tree-sitter": {
